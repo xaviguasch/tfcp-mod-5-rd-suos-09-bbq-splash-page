@@ -99,12 +99,9 @@ h2 {
     font-size: 1.75rem;
   }
 
-  .intro {
-    width: 50%;
-    height: 100vh;
-  }
+  .intro,
   .main-content {
     width: 50%;
-    height: 100vh;
+    min-height: 100vh;
   }
 }
