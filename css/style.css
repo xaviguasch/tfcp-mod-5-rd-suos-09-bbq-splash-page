@@ -128,6 +128,11 @@ input {
 .btn-primary {
   background: linear-gradient(to left, #ff713b, #ffa51d);
   color: #fff;
+  transition: transform 250ms;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
 }
 
 /* =================
